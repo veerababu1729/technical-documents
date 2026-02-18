@@ -49,6 +49,17 @@ s = "Python"
 s = "J" + s[1:]
 print(s)  # Jython
 ```
+
+
+### Strings are Iterable
+
+You can loop through strings character by character.
+
+```python
+s = "Python"
+for char in s:
+    print(char)
+```
 ---
 
 ## Operations on Strings
@@ -381,18 +392,6 @@ print("Python".islower())  # False
 ```python
 print("Python Programming".istitle())  # True
 print("Python programming".istitle())  # False
-```
-
----
-
-### Strings are Iterable
-
-You can loop through strings character by character.
-
-```python
-s = "Python"
-for char in s:
-    print(char)
 ```
 
 ---
