@@ -35,6 +35,22 @@ print(language)
 
 ---
 
+## Important String Properties
+
+### Strings are Immutable
+
+Strings cannot be changed after creation. Any operation that modifies a string creates a new string.
+
+```python
+s = "Python"
+# s[0] = 'J'  # This will raise an error
+
+# Instead, create a new string
+s = "J" + s[1:]
+print(s)  # Jython
+```
+---
+
 ## Operations on Strings
 
 ### 1. Accessing Characters in Strings
@@ -368,21 +384,6 @@ print("Python programming".istitle())  # False
 ```
 
 ---
-
-## Important String Properties
-
-### Strings are Immutable
-
-Strings cannot be changed after creation. Any operation that modifies a string creates a new string.
-
-```python
-s = "Python"
-# s[0] = 'J'  # This will raise an error
-
-# Instead, create a new string
-s = "J" + s[1:]
-print(s)  # Jython
-```
 
 ### Strings are Iterable
 
