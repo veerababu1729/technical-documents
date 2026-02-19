@@ -457,7 +457,7 @@ Given `s = "reverse"`, reverse the string using a loop and print it.
 
 ### Why Strings are Important:
 
-Strings are crucial for coding interviews because:
+Strings are crucial because:
 - Most data manipulation involves string operations
 - String problems test your understanding of indexing and slicing
 - String methods are frequently used in real-world applications
